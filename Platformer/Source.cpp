@@ -119,8 +119,6 @@ bool EditorClass::Start(MainRenderWindow& mainWindow)
 	levelEditView = sf::View(sf::FloatRect(0, 0, mainWindow.windowWidth, mainWindow.windowHeight));
 	levelEditView.setViewport(sf::FloatRect(0.03f, 0, 1, 1));
 
-
-
 	//setup variables to paint with
 
 	curTileType = Tile::Type::Platform;
