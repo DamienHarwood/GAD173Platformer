@@ -243,6 +243,7 @@ void EditorClass::Update(MainRenderWindow& mainWindow)
 
 bool GameClass::Start(MainRenderWindow& mainWindow)
 {
+
 	GetAllSaveFiles();
 	//setup of game, init tiles
 	for (int i = 0; i < x; i++)
