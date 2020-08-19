@@ -99,6 +99,7 @@ void MainMenu::Update(MainRenderWindow& mainWindow)
 		mainWindow.clear();
 		mainWindow.window.draw(levelEditorButton);
 		mainWindow.window.draw(gameButton);
+		//spot for draw heading text
 		mainWindow.window.display();
 	}
 	return;

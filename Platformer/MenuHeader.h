@@ -106,6 +106,9 @@ public:
 			650 - (650 / 2 - (gameButton.rect.getSize().y / 2))));
 		gameButton.text.setPosition(gameButton.rect.getPosition().x + (gameButton.rect.getSize().x / 4000000),
 			gameButton.rect.getPosition().y);
+
+		
+
 	}
 
 	sf::Vector2f worldPos;
