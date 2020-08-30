@@ -204,13 +204,13 @@ Collision Player::CollisionCheck(sf::FloatRect other)
 		{
 			if (deltaY > 0.0f)
 			{
-				col.dir = sf::Vector2f(0.0f, intersectY);// Code before change
-			}											 // col.dir = sf::Vector2f(intersectY, 0.0f);											
+				col.dir = sf::Vector2f(0.0f, intersectY);
+			}											 											
 			
 			else
 			{
-				col.dir = sf::Vector2f(0.0f, -intersectY);// Code before change
-			}											  // col.dir = sf::Vector2f(-intersectY, 0.0f);
+				col.dir = sf::Vector2f(0.0f, -intersectY);
+			}											  
 		}
 	}
 	else

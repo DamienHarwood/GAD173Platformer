@@ -1,5 +1,6 @@
 #pragma once
 #include "Editor.h"
+#include "SFML/Audio.hpp"
 
 struct Collision
 {
@@ -71,6 +72,12 @@ public:
 	float gravity;
 	float friction;
 	int coins;
+	sf::SoundBuffer jumpSB;
+	sf::SoundBuffer lifeLostSB;
+	sf::SoundBuffer gameWin;
+	sf::SoundBuffer gameOver;
+	sf::SoundBuffer coinSB;
+	sf::Sound sound;
 };
 
 int sign(int x);

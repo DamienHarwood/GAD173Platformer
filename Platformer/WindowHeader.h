@@ -15,7 +15,6 @@ public:
 	void clear()
 	{
 		window.clear(sf::Color::White);
-		
 	}
 
 	void close()

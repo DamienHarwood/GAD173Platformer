@@ -243,6 +243,7 @@ void EditorClass::Update(MainRenderWindow& mainWindow)
 
 bool GameClass::Start(MainRenderWindow& mainWindow)
 {
+	jumpSB.loadFromFile("SFX/Jump.wav");
 
 	GetAllSaveFiles();
 	//setup of game, init tiles
@@ -303,6 +304,8 @@ void GameClass::Update(MainRenderWindow& mainWindow)
 		{
 			player.isGrounded = false;
 			player.velocity.y += -player.jumpSpeed + deltaTime;
+			sound.setBuffer(jumpSB);
+			sound.play();
 		}
 	}
 
