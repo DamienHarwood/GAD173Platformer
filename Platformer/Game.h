@@ -74,9 +74,10 @@ public:
 	int coins;
 	sf::SoundBuffer jumpSB;
 	sf::SoundBuffer lifeLostSB;
-	sf::SoundBuffer gameWin;
-	sf::SoundBuffer gameOver;
+	sf::SoundBuffer gameWinSB;
+	sf::SoundBuffer gameOverSB;
 	sf::SoundBuffer coinSB;
+	sf::SoundBuffer hitEnemySB;
 	sf::Sound sound;
 };
 

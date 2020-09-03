@@ -244,6 +244,10 @@ void EditorClass::Update(MainRenderWindow& mainWindow)
 bool GameClass::Start(MainRenderWindow& mainWindow)
 {
 	jumpSB.loadFromFile("SFX/Jump.wav");
+	lifeLostSB.loadFromFile("SFX/Life Lost.wav");
+	coinSB.loadFromFile("SFX/Coin.wav");
+	hitEnemySB.loadFromFile("SFX/Hit.wav");
+	gameWinSB.loadFromFile("SFX/Win.wav");
 
 	GetAllSaveFiles();
 	//setup of game, init tiles
@@ -397,6 +401,8 @@ void GameClass::Update(MainRenderWindow& mainWindow)
 				{
 					//remove a life
 					player.lives--;
+					sound.setBuffer(lifeLostSB);
+					sound.play();
 					//reset position
 					player.Respawn();
 					std::cout << "Player hit lava" << std::endl;
@@ -416,6 +422,8 @@ void GameClass::Update(MainRenderWindow& mainWindow)
 					std::cout << "player grabbed coin" << std::endl;
 					player.coins++;
 					tile[i][j].ChangeActor(Actor::Type::None);
+					sound.setBuffer(coinSB);
+					sound.play();
 					
 				}
 			}
@@ -426,6 +434,8 @@ void GameClass::Update(MainRenderWindow& mainWindow)
 				{
 					//remove a life
 					player.lives--;
+					sound.setBuffer(lifeLostSB);
+					sound.play();
 					//reset position
 					player.Respawn();
 					std::cout << "Player hit spike" << std::endl;
@@ -450,11 +460,15 @@ void GameClass::Update(MainRenderWindow& mainWindow)
 							//we're on top of enemy
 							//kill enemy
 							tile[i][j].ChangeActor(Actor::Type::None);
+							sound.setBuffer(hitEnemySB);
+							sound.play();
 						}
 						else
 						{
 							//enemy is above
 							player.lives--;
+							sound.setBuffer(lifeLostSB);
+							sound.play();
 							player.Respawn();
 							if (player.lives == 0)
 							{
@@ -466,6 +480,8 @@ void GameClass::Update(MainRenderWindow& mainWindow)
 					else // horizontal hit instant death
 					{
 						player.lives--;
+						sound.setBuffer(lifeLostSB);
+						sound.play();
 						player.Respawn();
 						if (player.lives == 0)
 						{
@@ -484,6 +500,8 @@ void GameClass::Update(MainRenderWindow& mainWindow)
 					{
 						curLevel++;
 						LoadLevel(saves[curLevel], tile);
+						sound.setBuffer(gameWinSB);
+						sound.play();
 					}
 					else
 					{
