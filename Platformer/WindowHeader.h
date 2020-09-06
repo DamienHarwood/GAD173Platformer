@@ -14,7 +14,7 @@ public:
 	//functions
 	void clear()
 	{
-		window.clear(sf::Color::White);
+		window.clear(sf::Color::Black);
 	}
 
 	void close()

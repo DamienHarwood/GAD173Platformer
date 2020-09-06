@@ -1,42 +1,4 @@
-﻿  Audio.cpp
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(68,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(68,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(147,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(147,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(467,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(497,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(514,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(531,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(548,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(565,21): warning C4018: '<': signed/unsigned mismatch
-  Game.cpp
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(68,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(68,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(147,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(147,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(467,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(497,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(514,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(531,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(548,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(565,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(45,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(75,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(92,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(109,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(126,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(136,98): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(136,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Game.cpp(145,20): warning C4018: '<': signed/unsigned mismatch
-  Source.cpp
+﻿  Source.cpp
 C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(68,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(68,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Editor.h(147,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -63,5 +25,4 @@ C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Platformer\Source.cpp(120,
           [
               T=float
           ]
-  Generating Code...
   Platformer.vcxproj -> C:\Users\Damien\Documents\SAE\GAD173\GAD173Platformer\Debug\Platformer.exe

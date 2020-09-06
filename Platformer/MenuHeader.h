@@ -55,7 +55,7 @@ public:
 
 			//setup visuals
 			rect.setFillColor(sf::Color::White);
-			rect.setOutlineColor(sf::Color::Black);
+			rect.setOutlineColor(sf::Color::Yellow);
 			rect.setOutlineThickness(rectOutline);
 	}
 	bool mouseOver(sf::Vector2f windPos)
@@ -63,12 +63,14 @@ public:
 		rBounds = rect.getGlobalBounds();
 		if (rBounds.contains(windPos.x, windPos.y))
 		{
-			rect.setOutlineThickness(rectOutline * 2);
+			rect.setOutlineThickness(rectOutline * 5);
+			rect.setFillColor(sf::Color::Green);
 			return true;
 		}
 		else
 		{
 			rect.setOutlineThickness(rectOutline);
+			rect.setFillColor(sf::Color::White);
 			return false;
 		}
 	}
